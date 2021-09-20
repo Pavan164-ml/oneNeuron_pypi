@@ -5,7 +5,6 @@
 
 name: Upload Python Package
 
-# When do we execute this is push and pull
 on:
   push:
     branches:
