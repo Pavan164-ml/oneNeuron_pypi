@@ -3,21 +3,21 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-PROJECT_NAME = "oneNeuron.pypi"
-USER_NAME = "pk_164"
+PROJECT_NAME = "oneNeuron_pypi"
+USER_NAME = "Pavan164-ml"
 
 
 setuptools.setup(
-    name="f{PROJECT_NAME}-{USER_NAME}",
-    version="0.0.1",
-    author= USER_NAME,
+    name=f"{PROJECT_NAME}-{USER_NAME}",
+    version="0.0.2",
+    author=USER_NAME,
     author_email="pavanram2000@gmail.com",
-    description="A small implimentation of perceptron",
+    description="its an implimentation of Perceptron",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Pavan164-ml/oneNeuron_pypi",
+    url=f"https://github.com/{USER_NAME}/{PROJECT_NAME}",
     project_urls={
-        "Bug Tracker": "https://github.com/Pavan164-ml/oneNeuron_pypi/issues",
+        "Bug Tracker": f"https://github.com/{USER_NAME}/{PROJECT_NAME}/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
